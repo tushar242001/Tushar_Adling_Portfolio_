@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#minicircle{
+    transition: all cubic-bezier(0.19,1,0.22,1) 0.7s;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    z-index: 99999;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+   
+}
+.bounding .boundingelem{
+    transform: translateY(100%);
+   
+}
+#main{
+    width: 100%;
+    background-color: black;
+}
+#hero{
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+    color:#fff;
+
+}
+#nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+#heading{
+    margin-top: 90px;
+}
+#heading h1{
+    margin-left: 30px;
+    opacity: 0.6;
+    line-height: 1;
+    font-family:"general-sans Medium";
+    font-size: 7vw;
+    text-transform: uppercase;
+}
+#heading #secondh1{
+    margin-left: 230px;
+}
+.blocktext{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: fit-content;
+}
+.blocktext h5{
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: right;
+}
+#smallheading{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 100px;
+    padding-right: 50px;
+}
+#smallheading h4 {
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: 0.5vw;
+    font-size: 1.5vw;
+
+}
+#herofooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    
+}
+#herofooter a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.7vw;
+}
+#herofooter #iconset{
+    display: flex;
+    gap: 5px;
+}
+#herofooter #iconset .circle {
+    color: black;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #888;
+}
+#second{
+    color: #fff;
+    padding-right: 10vw;
+    padding-top: 100px;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.elem{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid #888;
+    padding: 2.5vw 0;
+}
+.elem h2{
+    text-transform: uppercase;
+    font-size: 6.6vw;
+    opacity: 0.7;
+}
+.elem h5{
+    text-transform: uppercase;
+    font-size: 2vw;
+    opacity: 0.7;
+}
+.elem img{
+    height: 100%;
+    width: 30%;
+    /* opacity: 0; */
+    display: none;
+    z-index: 999;
+    position: absolute;   
+}
+.elemlast{
+    border-top: 1px solid #888;
+    margin-bottom: 1px;
+}
+#about {
+    padding-top: 8vw;
+    padding-bottom: 5vw;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    width: 100%;
+    background-color: black;
+}
+#about img{
+    width: 15vw;
+
+}  
+#textabout{
+    width: 35rem;
+ 
+}
+#textabout h4{
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-bottom: 10px;
+}
+#textabout p{
+    line-height: 1.8;
+    margin-bottom: 30px;
+    font-size: 1.5vw;
+}
+#textabout a{
+    padding: 10px 17px;
+    border: 1px solid #fff;
+    border-radius: 80px;
+    color: #fff;
+}
+#subscribe{
+    
+    color: #fff;
+    padding: 50px 40px;
+    background-color:black;
+}
+#subscribe h4{
+    font-size: 1.5vw;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+#subscribe a{
+    font-size: 2vw;
+    padding: 10px 5px;
+    color: #fff;
+    margin-top: 10px;
+
+}
+#footer{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px; 
+}
+#footerleft{
+    display: flex;
+    gap: 20px
+}
+#footerleft h5{
+    font-size: 1.5vw;
+}
+#footerright{
+    display: flex;
+    gap: 10px
+}
+#footer a{
+    font-size: 2vw;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
