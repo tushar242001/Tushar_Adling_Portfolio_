@@ -14,7 +14,7 @@ Welcome to my portfolio website repository! This site showcases my projects, ski
 
 ## Live Demo
 
-Check out the live demo of my portfolio website .
+Check out the live demo of my portfolio website https://tushar242001.github.io/Tushar_Adling_Portfolio_/ .
 
 ## Features
 - Showcase of my projects with descriptions and links
