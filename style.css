@@ -150,7 +150,7 @@ html,body{
 .elem img{
     height: 100%;
     width: 30%;
-    /* opacity: 0; */
+    /* opacity: 0;  */
     display: none;
     z-index: 999;
     position: absolute;   
