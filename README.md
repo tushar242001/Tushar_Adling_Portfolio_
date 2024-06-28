@@ -3,6 +3,7 @@ Hi My Name is Tushar Adling .
 Welcome to my portfolio website repository! This site showcases my projects, skills, and experiences.
 
 ## Table of Contents
+- [Live Demo](#live-demo)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -10,6 +11,10 @@ Welcome to my portfolio website repository! This site showcases my projects, ski
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+
+## Live Demo
+
+Check out the live demo of my portfolio website .
 
 ## Features
 - Showcase of my projects with descriptions and links
