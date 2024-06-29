@@ -57,6 +57,52 @@ function circlemousefollower(xscale,yscale)
     });
 
 }
+
+document.querySelectorAll(".elem").forEach(function(elem){
+    var rotate=0;
+    var diffro=0;
+
+    elem.addEventListener("mouseleave",function(details){
+        var diffen=details.clientY-elem.getBoundingClientRect().top;
+        diffro=details.clientX-rotate;
+        rotate=details.clientX;
+  
+        gsap.to(elem.querySelector("img"),{
+            opacity:0,
+            ease: Power3,
+           
+        })
+    });
+
+
+
+    elem.addEventListener("mousemove",function(details){
+
+      
+        var diffen=details.clientY-elem.getBoundingClientRect();
+        diffro=details.clientX-rotate;
+        rotate=details.clientX;
+  
+        gsap.to(elem.querySelector("img"),{
+            opacity:1,
+            ease: Power1,
+            top: diffen,
+            left: details.clientX,
+            rotate:gsap.utils.clamp(-10,20,diffro)
+         })
+    });
+
+});
+
+
 circlemousefollower();
 firstpageAnim();
 circlechaptkaro();
+
+
+
+
+
+
+
+
