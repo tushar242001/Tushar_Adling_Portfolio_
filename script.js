@@ -63,7 +63,6 @@ document.querySelectorAll(".elem").forEach(function(elem){
     var diffro=0;
 
     elem.addEventListener("mouseleave",function(details){
-        var diffen=details.clientY-elem.getBoundingClientRect().top;
         diffro=details.clientX-rotate;
         rotate=details.clientX;
   
@@ -73,12 +72,7 @@ document.querySelectorAll(".elem").forEach(function(elem){
            
         })
     });
-
-
-
     elem.addEventListener("mousemove",function(details){
-
-      
         var diffen=details.clientY-elem.getBoundingClientRect();
         diffro=details.clientX-rotate;
         rotate=details.clientX;
@@ -88,7 +82,7 @@ document.querySelectorAll(".elem").forEach(function(elem){
             ease: Power1,
             top: diffen,
             left: details.clientX,
-            rotate:gsap.utils.clamp(-10,20,diffro)
+            rotate:gsap.utils.clamp(-20,20,diffro)
          })
     });
 

@@ -122,7 +122,8 @@ html,body{
 }
 #second{
     color: #fff;
-    padding-right: 10vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
     padding-top: 100px;
     background-color: black;
     width: 100%;
@@ -138,18 +139,17 @@ html,body{
     padding: 2.5vw 0;
 }
 .elem h2{
-    text-transform: uppercase;
-    font-size: 6.6vw;
+    font-size: 2.7vw;
     opacity: 0.7;
 }
 .elem h5{
     text-transform: uppercase;
-    font-size: 2vw;
+    font-size: 1.8vw;
     opacity: 0.7;
 }
 .elem img{
-    height: 120%;
-    width: 30%;
+    height: 140%;
+    width: 20%;
     opacity: 0%; 
     z-index: 999;
     position: absolute;   
