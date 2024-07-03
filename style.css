@@ -143,7 +143,7 @@ html,body{
     justify-content: space-between;
     width: 100%;
     border-top: 1px solid #888;
-    padding: 2.5vw 0;
+    padding: 3vw 0;
 }
 .elem h2{
     font-size: 2.7vw;
@@ -155,7 +155,7 @@ html,body{
     opacity: 0.7;
 }
 .elem img{
-    height: 140%;
+    height: 160%;
     width: 20%;
     opacity: 0%; 
     z-index: 999;
@@ -165,6 +165,49 @@ html,body{
     border-top: 1px solid #888;
     margin-bottom: 1px;
 }
+#expierence{
+    color: #fff;
+    padding: 12vw 3vw;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #888;
+}
+#expierence h1{
+    font-size: 5vw;
+    border: #fff;
+    padding-bottom: 1.5vw;
+    border-bottom: 1px solid #888;
+}
+.IT {
+    padding-top: 1.5vw;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.IT h2{
+    font-size: 2.7vw;
+    opacity: 0.7;
+}
+.IT h5{
+    text-transform: uppercase;
+    font-size: 1.8vw;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 #about {
     padding-top: 8vw;
     padding-bottom: 5vw;
