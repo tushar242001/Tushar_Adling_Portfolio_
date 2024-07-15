@@ -167,7 +167,9 @@ html,body{
 }
 #expierence{
     color: #fff;
-    padding: 12vw 3vw;
+    padding-top: 12vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
     background-color: black;
     width: 100%;
     height: 100%;
@@ -179,6 +181,18 @@ html,body{
     padding-bottom: 1.5vw;
     border-bottom: 1px solid #888;
 }
+#expierence .one{
+
+    border-bottom: 1px solid #888;
+}
+#expierence .two{
+
+    border-bottom: 1px solid #888;
+}
+#expierence #proj{
+    font-size: 2.7vw ;
+}
+
 .IT {
     padding-top: 1.5vw;
     color: #fff;
@@ -188,18 +202,19 @@ html,body{
 }
 .IT h2{
     font-size: 2.7vw;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 .IT h5{
     text-transform: uppercase;
     font-size: 1.8vw;
-    opacity: 0.7;
+    opacity: 0.6;
 }
 .IT h3{
     align-items: center;
     justify-content: center;
     opacity: 0.7;
 }
+
 
 
 
