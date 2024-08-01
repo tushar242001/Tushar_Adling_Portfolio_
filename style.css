@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family:'Times New Roman', Times, serif;
+   
 }
 
 html,body{
@@ -45,13 +46,9 @@ html,body{
     width: 100%;
     padding: 20px 40px;
     color:#fff;
+    font-size: large;
+}
 
-}
-#nav a{
-    text-decoration: none;
-    font-size: 18px;
-    color: #fff;
-}
 #heading{
     margin-top: 90px;
 }
