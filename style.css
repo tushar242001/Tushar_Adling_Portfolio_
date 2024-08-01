@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family:'Times New Roman', Times, serif;
+    background-color: #fff;
    
 }
 
@@ -17,7 +18,8 @@ html,body{
     position: absolute;
     z-index: 99999;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: black;
+    
 }
 .bounding{
     width: fit-content;
@@ -33,10 +35,10 @@ html,body{
     background-color: black;
 }
 #hero{
-    color: #fff;
+    color: black;
     width: 100%;
     height: 100vh;
-    background-color: black;
+    background-color:#fff;
     position: relative;
 }
 #nav{
@@ -45,7 +47,7 @@ html,body{
     justify-content: space-between;
     width: 100%;
     padding: 20px 40px;
-    color:#fff;
+    color:black;
     font-size: large;
 }
 
@@ -99,7 +101,7 @@ html,body{
     
 }
 #herofooter a {
-    color: #fff;
+    color: black;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 1.7vw;
@@ -118,16 +120,16 @@ html,body{
     background-color: #888;
 }
 #second{
-    color: #fff;
+    color: black;
     padding-right: 3vw;
     padding-left: 3vw;
     padding-top: 100px;
-    background-color: black;
+    background-color:#fff;
     width: 100%;
     height: 100%;
 }
 #second h1 {
-    color: #fff;
+    color: black;
     font-size: 5vw;
     padding-bottom: 1.5vw;
     padding-left: 2vw;
@@ -163,11 +165,11 @@ html,body{
     margin-bottom: 1px;
 }
 #expierence{
-    color: #fff;
+    color: black;
     padding-top: 12vw;
     padding-left: 3vw;
     padding-right: 3vw;
-    background-color: black;
+    background-color:#fff;
     width: 100%;
     height: 100%;
     border-bottom: 1px solid #888;
@@ -192,7 +194,7 @@ html,body{
 
 .IT {
     padding-top: 1.5vw;
-    color: #fff;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -212,29 +214,16 @@ html,body{
     opacity: 0.7;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 #about {
     padding-top: 8vw;
     padding-bottom: 5vw;
-    color: #fff;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 100px;
     width: 100%;
-    background-color: black;
+    background-color:#fff;
 }
 #about img{
     width: 15vw;
@@ -259,14 +248,14 @@ html,body{
     padding: 10px 17px;
     border: 1px solid #fff;
     border-radius: 80px;
-    color: #fff;
+    color: black;
     font-size: 2vw;
 }
 #subscribe{
     
-    color: #fff;
+    color: black;
     padding: 50px 40px;
-    background-color:black;
+    background-color:#fff;
 }
 #subscribe h4{
     font-size: 1.5vw;
@@ -277,13 +266,13 @@ html,body{
 #subscribe a{
     font-size: 2vw;
     padding: 10px 5px;
-    color: #fff;
+    color: black;
     margin-top: 10px;
 
 }
 #footer{
-    background-color: black;
-    color: #fff;
+    background-color:#fff;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -302,7 +291,7 @@ html,body{
 }
 #footer a{
     font-size: 2vw;
-    color: #fff;
+    color: black;
     text-decoration: none;
     padding: 10px;
 }
