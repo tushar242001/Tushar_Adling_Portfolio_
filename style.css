@@ -142,7 +142,7 @@ html,body{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    border-top: 1px solid #888;
+    border-bottom: 1px solid black;
     padding: 3vw 0;
 }
 .elem h2{
@@ -162,7 +162,7 @@ html,body{
     position: absolute;   
 }
 .elemlast{
-    border-top: 1px solid #888;
+    border-bottom: 1px solid black;
     margin-bottom: 1px;
 }
 #expierence{
@@ -173,21 +173,21 @@ html,body{
     background-color:#fff;
     width: 100%;
     height: 100%;
-    border-bottom: 1px solid #888;
+    border-bottom: 1px solid black;
 }
 #expierence h1{
     font-size: 5vw;
     border: #fff;
     padding-bottom: 1.5vw;
-    border-bottom: 1px solid #888;
+    border-bottom: 1px solid black;
 }
 #expierence .one{
 
-    border-bottom: 1px solid #888;
+    border-bottom: 1px solid black;
 }
 #expierence .two{
 
-    border-bottom: 1px solid #888;
+    border-bottom: 1px solid black;
 }
 #expierence #proj{
     font-size: 2.7vw ;
@@ -247,7 +247,7 @@ html,body{
 }
 #textabout a{
     padding: 10px 17px;
-    border: 1px solid #fff;
+    border: 1px solid black;
     border-radius: 80px;
     color: black;
     font-size: 2vw;
