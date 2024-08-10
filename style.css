@@ -227,12 +227,21 @@ html,body{
     border-bottom: 1px solid black;
 }
 #project .project1{
-
     border-bottom: 1px solid black;
 }
 #project h2{
-    padding-top: 1.3vw;
-    font-size: 2vw;
+    padding: 1.5vw 0;
+    font-size: 2.3vw;
+   
+}
+.project1 a{
+    text-decoration: none;
+    color: black;
+    padding: 0 3vw;
+}
+.desc h3{
+    font-size: 1.5vw;
+    padding: 0.3vw;
 }
 
 
@@ -259,18 +268,21 @@ html,body{
     padding-bottom: 1.5vw;
     border-bottom: 1px solid black;
 }
-#experience .one{
+#experience .two{
 
     border-bottom: 1px solid black;
 }
-#experience .two{
+#experience .three{
 
     border-bottom: 1px solid black;
 }
 #experience #proj{
     font-size: 2.7vw ;
 }
-
+.projtitle a{
+    text-decoration: none;
+    color: black;
+}
 .IT {
     padding-top: 1.5vw;
     color: black;
@@ -280,7 +292,7 @@ html,body{
 }
 .IT h2{
     font-size: 2.7vw;
-    opacity: 0.8;
+    opacity: 1;
 }
 .IT h5{
     text-transform: uppercase;
@@ -293,6 +305,7 @@ html,body{
     opacity: 0.7;
     font-size: 1.3vw;
 }
+
 
 
 /* Experience section ends  */
@@ -308,8 +321,7 @@ html,body{
 
 /* About Section starts  */
 #about {
-    padding-top: 8vw;
-    padding-bottom: 5vw;
+    padding: 8vw 2.5vw;
     color: black;
     display: flex;
     align-items: center;
@@ -320,11 +332,9 @@ html,body{
 }
 #about img{
     width: 15vw;
-
 }  
 #textabout{
     width: 35rem;
- 
 }
 #textabout h4{
     text-transform: uppercase;
@@ -343,33 +353,12 @@ html,body{
     border-radius: 80px;
     color: black;
     font-size: 2vw;
+    background-color: rgb(252, 231, 234);
 }
 
 /* About section ends  */
 
 
-/* Subscribe section starts  */
-#subscribe{
-    
-    color: black;
-    padding: 50px 40px;
-    background-color:#fff;
-}
-#subscribe h4{
-    font-size: 1.5vw;
-    padding: 5px 10px;
-    text-transform: uppercase;
-    opacity: 0.6;
-}
-#subscribe a{
-    font-size: 2vw;
-    padding: 10px 5px;
-    color: black;
-    margin-top: 10px;
-
-}
-
-/* Subscribe section ends  */
 
 
 /* Footer section starts  */
@@ -379,7 +368,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 30px; 
+    padding: 30px 30px; 
 }
 #footerleft{
     display: flex;
@@ -397,6 +386,10 @@ html,body{
     color: black;
     text-decoration: none;
     padding: 10px;
+    border-radius: 80px;
+    border: 1px solid black;
+    background-color: rgb(254, 245, 245);
+  
 }
 
 /* Footer section ends  */
