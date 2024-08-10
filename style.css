@@ -139,7 +139,7 @@ html,body{
 #eduction{
     color: black;
     padding: 7vw 3vw;
-    background-color:rgb(198, 245, 254);
+    background-color:#fff;
     width: 100%;
     height: 100%;
     border-bottom: 1px solid black;
@@ -151,7 +151,7 @@ html,body{
     padding-bottom: 1vw;
     padding-left: 2vw;
     border-bottom: 1px solid black;
-    background-color:rgb(198, 245, 254);
+    background-color:#fff;
 }
 .elem{
     position: relative;
@@ -161,18 +161,18 @@ html,body{
     width: 100%;
     border-bottom: 1px solid black;
     padding: 3vw 0;
-    background-color:rgb(198, 245, 254);
+    background-color:#fff;
 }
 .elem h2{
     font-size: 2.7vw;
     opacity: 1;
-    background-color:rgb(198, 245, 254);
+    background-color:#fff;
 }
 .elem h5{
     text-transform: uppercase;
     font-size: 1.8vw;
     opacity: 1;
-    background-color:rgb(198, 245, 254);
+    background-color:#fff;
 }
 .elem img{
     height: 160%;
