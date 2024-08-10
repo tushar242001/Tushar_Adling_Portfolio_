@@ -11,6 +11,8 @@ html,body{
     width: 100%;
     height: 100%;
 }
+
+/* Minicircle section starts  */
 #minicircle{
     transition: all cubic-bezier(0.19,1,0.22,1) 0.7s;
     width: 10px;
@@ -30,10 +32,17 @@ html,body{
     transform: translateY(100%);
    
 }
+/* Minicircle  section ends  */
+
+
+
 #main{
     width: 100%;
     background-color:#fff;
 }
+
+
+/* Hero section start  */
 #hero{
     color: black;
     width: 100%;
@@ -47,8 +56,11 @@ html,body{
     justify-content: space-between;
     width: 100%;
     padding: 20px 40px;
-    color:black;
-    font-size: large;
+}
+#nav a{
+    font-size: 1.5vw;
+    color: black;
+    text-decoration: none;
 }
 
 #heading{
@@ -56,7 +68,7 @@ html,body{
 }
 #heading h1{
     margin-left: 30px;
-    opacity: 0.7;
+    opacity: 1;
     line-height: 1;
     font-family:"general-sans Medium";
     font-size: 7vw;
@@ -120,21 +132,26 @@ html,body{
     border-radius: 50%;
     
 }
-#second{
+ /*  Hero section ends  */
+
+
+ /* Eduction section starts */
+#eduction{
     color: black;
-    padding-right: 3vw;
-    padding-left: 3vw;
-    padding-top: 100px;
-    background-color:#fff;
+    padding: 7vw 3vw;
+    background-color:rgb(198, 245, 254);
     width: 100%;
     height: 100%;
+    border-bottom: 1px solid black;
+  
 }
-#second h1 {
+#eduction h1 {
     color: black;
     font-size: 5vw;
-    padding-bottom: 1.5vw;
+    padding-bottom: 1vw;
     padding-left: 2vw;
-
+    border-bottom: 1px solid black;
+    background-color:rgb(198, 245, 254);
 }
 .elem{
     position: relative;
@@ -144,15 +161,18 @@ html,body{
     width: 100%;
     border-bottom: 1px solid black;
     padding: 3vw 0;
+    background-color:rgb(198, 245, 254);
 }
 .elem h2{
     font-size: 2.7vw;
-    opacity: 0.6;
+    opacity: 1;
+    background-color:rgb(198, 245, 254);
 }
 .elem h5{
     text-transform: uppercase;
     font-size: 1.8vw;
     opacity: 1;
+    background-color:rgb(198, 245, 254);
 }
 .elem img{
     height: 160%;
@@ -165,7 +185,32 @@ html,body{
     border-bottom: 1px solid black;
     margin-bottom: 1px;
 }
-#expierence{
+/* Eduction section ends */
+
+
+/* Skills Section Start */
+
+#skills{
+    color: black;
+    padding-top: 12vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background-color:#fff;
+    width: 100%;
+    height: 100%;
+  
+   
+}
+
+
+
+
+
+/* Skills Section Ends  */
+
+
+/* Project starts here */
+#project{
     color: black;
     padding-top: 12vw;
     padding-left: 3vw;
@@ -175,21 +220,54 @@ html,body{
     height: 100%;
     border-bottom: 1px solid black;
 }
-#expierence h1{
+#project h1{
+    font-size: 5vw;
+    border: #fff;
+    padding-bottom: 1vw;
+    border-bottom: 1px solid black;
+}
+#project .project1{
+
+    border-bottom: 1px solid black;
+}
+#project h2{
+    padding-top: 1.3vw;
+    font-size: 2vw;
+}
+
+
+
+/* Project section ends  */
+
+
+
+
+/* Experience starts here */
+#experience{
+    color: black;
+    padding-top: 12vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background-color:#fff;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid black;
+}
+#experience h1{
     font-size: 5vw;
     border: #fff;
     padding-bottom: 1.5vw;
     border-bottom: 1px solid black;
 }
-#expierence .one{
+#experience .one{
 
     border-bottom: 1px solid black;
 }
-#expierence .two{
+#experience .two{
 
     border-bottom: 1px solid black;
 }
-#expierence #proj{
+#experience #proj{
     font-size: 2.7vw ;
 }
 
@@ -213,8 +291,22 @@ html,body{
     align-items: center;
     justify-content: center;
     opacity: 0.7;
+    font-size: 1.3vw;
 }
 
+
+/* Experience section ends  */
+
+
+
+
+
+
+
+
+
+
+/* About Section starts  */
 #about {
     padding-top: 8vw;
     padding-bottom: 5vw;
@@ -252,6 +344,11 @@ html,body{
     color: black;
     font-size: 2vw;
 }
+
+/* About section ends  */
+
+
+/* Subscribe section starts  */
 #subscribe{
     
     color: black;
@@ -271,6 +368,11 @@ html,body{
     margin-top: 10px;
 
 }
+
+/* Subscribe section ends  */
+
+
+/* Footer section starts  */
 #footer{
     background-color:#fff;
     color: black;
@@ -296,3 +398,5 @@ html,body{
     text-decoration: none;
     padding: 10px;
 }
+
+/* Footer section ends  */
