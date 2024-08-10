@@ -138,11 +138,11 @@ html,body{
  /* Eduction section starts */
 #eduction{
     color: black;
-    padding: 7vw 3vw;
+    padding: 8vw 3vw;
     background-color:#fff;
     width: 100%;
     height: 100%;
-    border-bottom: 1px solid black;
+  
   
 }
 #eduction h1 {
@@ -192,60 +192,53 @@ html,body{
 
 #skills{
     color: black;
-    padding-top: 12vw;
-    padding-left: 3vw;
-    padding-right: 3vw;
-    background-color:#fff;
+    padding:8vw 3vw;
     width: 100%;
     height: 100%;
-  
-   
 }
-
-
-
-
-
 /* Skills Section Ends  */
+
 
 
 /* Project starts here */
 #project{
     color: black;
-    padding-top: 12vw;
-    padding-left: 3vw;
-    padding-right: 3vw;
+    padding: 8vw 3vw;
     background-color:#fff;
     width: 100%;
     height: 100%;
-    border-bottom: 1px solid black;
+   
 }
 #project h1{
     font-size: 5vw;
     border: #fff;
     padding-bottom: 1vw;
     border-bottom: 1px solid black;
+
 }
 #project .project1{
     border-bottom: 1px solid black;
+   
 }
 #project h2{
     padding: 1.5vw 0;
     font-size: 2.3vw;
    
+   
 }
 .project1 a{
     text-decoration: none;
     color: black;
-    padding: 0 3vw;
+    padding: 10px 17px;
+    border-radius: 80px;
+    border: 1px solid black;
+    
 }
 .desc h3{
     font-size: 1.5vw;
     padding: 0.3vw;
+    
 }
-
-
-
 /* Project section ends  */
 
 
@@ -254,13 +247,11 @@ html,body{
 /* Experience starts here */
 #experience{
     color: black;
-    padding-top: 12vw;
-    padding-left: 3vw;
-    padding-right: 3vw;
+    padding: 8vw 3vw;
     background-color:#fff;
     width: 100%;
     height: 100%;
-    border-bottom: 1px solid black;
+    
 }
 #experience h1{
     font-size: 5vw;
@@ -297,17 +288,14 @@ html,body{
 .IT h5{
     text-transform: uppercase;
     font-size: 1.8vw;
-    opacity: 0.6;
+    opacity: 1;
 }
 .IT h3{
     align-items: center;
     justify-content: center;
-    opacity: 0.7;
+    opacity: 1;
     font-size: 1.3vw;
 }
-
-
-
 /* Experience section ends  */
 
 
@@ -355,7 +343,6 @@ html,body{
     font-size: 2vw;
     background-color: rgb(252, 231, 234);
 }
-
 /* About section ends  */
 
 
