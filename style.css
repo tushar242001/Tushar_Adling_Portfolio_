@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family:'Times New Roman', Times, serif;
-    background-color: #fff;
+    background-color: black;
    
 }
 
@@ -21,7 +21,7 @@ html,body{
     position: absolute;
     z-index: 99999;
     border-radius: 50%;
-    background-color: black;
+    background-color:#fff;
     
 }
 .bounding{
@@ -39,16 +39,16 @@ html,body{
 
 #main{
     width: 100%;
-    background-color:#fff;
+    background-color:black;
 }
 
 
 /* Hero section start  */
 #hero{
-    color: black;
+    color:#fff;
     width: 100%;
     height: 100vh;
-    background-color:#fff;
+    background-color:black;
     position: relative;
 }
 #nav{
@@ -61,7 +61,7 @@ html,body{
 }
 #nav a{
     font-size: 1.5vw;
-    color: black;
+    color:#fff;
     text-decoration: none;
 }
 
@@ -139,20 +139,20 @@ html,body{
 
  /* Eduction section starts */
 #eduction{
-    color: black;
+    color:#fff;
     padding: 8vw 3vw;
-    background-color:#fff;
+    background-color:black;
     width: 100%;
     height: 100%;
   
 }
 #eduction h1 {
-    color: black;
+    color:#fff;
     font-size: 5vw;
     padding-bottom: 1vw;
     padding-left: 2vw;
-    border-bottom: 1px solid black;
-    background-color:#fff;
+    border-bottom: 1px solid #fff;
+    background-color:black;
 }
 .elem{
     position: relative;
@@ -160,20 +160,20 @@ html,body{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #fff;
     padding: 3vw 0;
-    background-color:#fff;
+    background-color:black;
 }
 .elem h2{
     font-size: 2.7vw;
     opacity: 1;
-    background-color:#fff;
+    background-color:black;
 }
 .elem h5{
     text-transform: uppercase;
     font-size: 1.8vw;
     opacity: 1;
-    background-color:#fff;
+    background-color:black;
 }
 .elem img{
     height: 160%;
@@ -192,19 +192,19 @@ html,body{
 /* Skills Section Start */
 
 #skills{
-    color: black;
+    color:#fff;
     padding:8vw 3vw;
     width: 100%;
     height: 100%;
-    background-color:#fff;
+    background-color:black;
 }
 #skills h1{
-    color: black;
+    color:#fff;
     font-size: 5vw;
     padding-bottom: 1vw;
     padding-left: 2vw;
-    border-bottom: 1px solid black;
-    background-color:#fff;
+    border-bottom: 1px solid #fff;
+    background-color:black;
 }
 /* Skills Section Ends  */
 
@@ -212,9 +212,9 @@ html,body{
 
 /* Project starts here */
 #project{
-    color: black;
+    color:#fff;
     padding: 8vw 3vw;
-    background-color:#fff;
+    background-color:black;
     width: 100%;
     height: 100%;
    
@@ -223,11 +223,11 @@ html,body{
     font-size: 5vw;
     border: #fff;
     padding-bottom: 1vw;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #fff;
 
 }
 #project .project1{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #fff;
    
 }
 #project h2{
@@ -238,10 +238,10 @@ html,body{
 }
 .project1 a{
     text-decoration: none;
-    color: black;
+    color:#fff;
     padding: 10px 17px;
     border-radius: 80px;
-    border: 1px solid black;
+    border: 1px solid #fff;
     
 }
 .desc h3{
@@ -256,9 +256,9 @@ html,body{
 
 /* Experience starts here */
 #experience{
-    color: black;
+    color:#fff;
     padding: 8vw 3vw;
-    background-color:#fff;
+    background-color:black;
     width: 100%;
     height: 100%;
     
@@ -267,26 +267,26 @@ html,body{
     font-size: 5vw;
     border: #fff;
     padding-bottom: 1.5vw;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #fff;
 }
 #experience .two{
 
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #fff;
 }
 #experience .three{
 
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #fff;
 }
 #experience #proj{
     font-size: 2.7vw ;
 }
 .projtitle a{
     text-decoration: none;
-    color: black;
+    color:#fff;
 }
 .IT {
     padding-top: 1.5vw;
-    color: black;
+    color:#fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -320,13 +320,13 @@ html,body{
 /* About Section starts  */
 #about {
     padding: 8vw 2.5vw;
-    color: black;
+    color:#fff;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 100px;
     width: 100%;
-    background-color:#fff;
+    background-color:black;
 }
 #about img{
     width: 15vw;
@@ -347,11 +347,11 @@ html,body{
 }
 #textabout a{
     padding: 10px 17px;
-    border: 1px solid black;
+    border: 1px solid #fff;
     border-radius: 80px;
-    color: black;
+    color:#fff;
     font-size: 2vw;
-    background-color: rgb(252, 231, 234);
+    background-color: rgb(238, 241, 18);
 }
 /* About section ends  */
 
@@ -360,8 +360,8 @@ html,body{
 
 /* Footer section starts  */
 #footer{
-    background-color:#fff;
-    color: black;
+    background-color:black;
+    color:#fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -380,12 +380,12 @@ html,body{
 }
 #footer a{
     font-size: 2vw;
-    color: black;
+    color:#fff;
     text-decoration: none;
     padding: 10px;
     border-radius: 80px;
-    border: 1px solid black;
-    background-color: rgb(254, 245, 245);
+    border: 1px solid #fff;
+    background-color: black;
   
 }
 
