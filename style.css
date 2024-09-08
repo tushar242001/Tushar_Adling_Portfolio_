@@ -47,26 +47,37 @@ html,body{
 #hero{
     color:#fff;
     width: 100%;
-    height: 100vh;
-    background-color:black;
-    position: relative;
+    height: 100%;
+    padding-bottom: 10px;
 }
 #nav{
     display: flex;
+    padding: 15px 20px;
     align-items: center;
-    justify-content: right;
-    gap: 45px;
-    width: 100%;
-    padding: 20px 40px;
-}
-#nav a{
-    font-size: 1.5vw;
-    color:#fff;
-    text-decoration: none;
+    justify-content: space-between;
 }
 
+#myname a{
+    font-size: 1.5vw;
+    padding: 10px ;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid #fff;
+}
+
+#navbar a{
+    font-size: 1.5vw;
+    padding: 10px ;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid #fff;
+}
 #heading{
-    margin-top: 90px;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+
 }
 #heading h1{
     margin-left: 30px;
@@ -94,14 +105,15 @@ html,body{
     display: flex;
     flex-direction: column;
     align-items: end;
-    margin-top: 100px;
+    margin-bottom: 8vw;
     padding-right: 50px;
+
 }
 #smallheading h4 {
     text-align: right;
     text-transform: uppercase;
     margin-top: 0.5vw;
-    font-size: 1.5vw;
+    font-size: 2vw;
 
 }
 #herofooter {
@@ -110,9 +122,8 @@ html,body{
     justify-content: space-between;
     padding: 0 2vw;
     width: 100%;
-    position: absolute;
-    bottom: 3%;
-    
+    position: absolute; 
+    margin-bottom: 4vw;
 }
 #herofooter a {
     color:#fff;
@@ -123,15 +134,16 @@ html,body{
 #herofooter #iconset{
     display: flex;
     gap: 10px;
+    padding: 10px;
     
 }
 #herofooter #iconset .circle {
-    color: black;
+    color:#fff;
+    padding: 5px;
     align-items: center;
     justify-content: center;
-    width: 30px;
-    height: 30px;
     border-radius: 50%;
+    border: 1px solid #fff;
     
 }
  /*  Hero section ends  */
@@ -139,6 +151,7 @@ html,body{
 
  /* Eduction section starts */
 #eduction{
+    margin-top: 10vw;
     color:#fff;
     padding: 8vw 3vw;
     background-color:black;
