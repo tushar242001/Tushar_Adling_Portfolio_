@@ -51,6 +51,7 @@ html,body{
     padding-bottom: 10px;
 }
 #nav{
+    margin: 1vw;
     display: flex;
     padding: 15px 20px;
     align-items: center;
@@ -77,6 +78,7 @@ html,body{
 #heading{
     margin-top: 10vw;
     margin-bottom: 10vw;
+   
 
 }
 #heading h1{
@@ -120,10 +122,11 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 2vw;
+    padding:2vw;
     width: 100%;
     position: absolute; 
     margin-bottom: 4vw;
+    border-bottom: 1px solid #fff;
 }
 #herofooter a {
     color:#fff;
@@ -157,6 +160,7 @@ html,body{
     background-color:black;
     width: 100%;
     height: 100%;
+    border-bottom: 1px solid #fff;
   
 }
 #eduction h1 {
@@ -209,7 +213,9 @@ html,body{
     padding:8vw 3vw;
     width: 100%;
     height: 100%;
-    background-color:black;
+    border-bottom: 1px solid #fff;
+
+   
 }
 #skills h1{
     color:#fff;
@@ -219,6 +225,43 @@ html,body{
     border-bottom: 1px solid #fff;
     background-color:black;
 }
+#Tech {
+    display: flex;
+    justify-content: space-around;
+  
+}
+#Tech div{
+    margin: 2vw;
+    padding: 2vw;
+    font-size: 3vw;
+    border-radius: 9px;
+    border: 1px solid #fff;
+  
+}
+#web{
+    display: flex;
+    justify-content: space-around;
+}
+#web div{
+    margin: 2vw;
+    padding: 2vw;
+    font-size: 3vw;
+    border-radius: 9px;
+    border: 1px solid #fff;
+   
+}
+#platform{
+    display: flex;
+    justify-content: space-around;
+}
+#platform div{
+    margin: 2vw;
+    padding: 2vw;
+    font-size: 3vw;
+    border-radius: 9px;
+    border: 1px solid #fff;
+}
+
 /* Skills Section Ends  */
 
 
@@ -230,6 +273,7 @@ html,body{
     background-color:black;
     width: 100%;
     height: 100%;
+    border-bottom: 1px solid #fff;
    
 }
 #project h1{
@@ -275,6 +319,7 @@ html,body{
     background-color:black;
     width: 100%;
     height: 100%;
+    border-bottom: 1px solid #fff;
     
 }
 #experience h1{
